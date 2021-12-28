@@ -1,0 +1,330 @@
+@import url(assets/css/font-awesome.min.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(59, 56, 56); 
+}
+
+p{
+    font-size: 14px;
+    color: blue;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: "raleway",Helvetica,sans-serif;
+}
+.nav-item{
+    margin-left: 20px;
+    position: relative;
+}
+
+.dropdown-menu {
+    display:  none;
+    width: 233px;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    font-size: 13px;
+    z-index: 1;
+    transition: 1s;
+}
+
+li.nav-item:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+    left:0;
+    top: 47px;
+    
+}
+.dropdown-menu li:hover{
+    background-color:crimson;
+}
+
+.dropdown-menu li{
+    padding: 10px 10px;
+    color: rgb(15, 2, 2);
+    font-size: 14px;
+}
+
+.back-color{
+    background-color: rgba(0,0,0,.1);
+}
+
+.nav-link{
+      font-size: 12px;
+      display: inline;
+}
+
+.nav-link-2{
+      padding-bottom: 30px;
+}
+
+.cfa-text{
+    font-size: 22px;
+    color: #da4453;
+    padding-top: 10px;
+}
+
+.cfa-button{
+    font-size: 20px;
+}
+
+.main-content img{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.main-content img:hover{
+    opacity: 0.6;
+}
+
+.flex-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 0 30px;
+    display: inline-block;
+    max-width: 1170px;
+    margin: auto;
+    bottom: 50px;
+}
+
+.excerpt{
+    background: rgba(59,59,59,.8);
+    display: block;
+    color: #ddd;
+    max-width: 600px;
+}
+  .entry-text{
+    background: rgba(218,68,83,.7);
+    font-weight: 400;
+    font-size: 24px;
+    max-width: 640px;
+    display: inline-block;
+    padding: 12px 20px;
+    margin-bottom: 0;
+    color: #fff;
+}
+  
+.main-content-area{
+    background-color: #e2dede;
+
+}
+.footer-big{
+    background-color: #313233;
+}
+
+.rounded{
+    transition: 0.5s;
+}
+
+.rounded:hover{
+    opacity: 0.4;
+
+}
+.post-content a{
+    font-size: 16px;
+    color: rgb(223, 66, 66);
+    line-height: 0.5em;
+    transition: 0.5s;
+}
+
+.post-content a:hover{
+    color: gray;
+}
+
+.post-on{
+    font-size: 13px;
+}
+
+.entry-title a{
+    color: rgb(29, 28, 28);
+    font-size: 24px;
+}
+
+.entry-title a:hover{
+    color: #da4453;
+    transition: all 0.5s;
+}
+
+.entry-content p{
+    color: #6B6B6B;
+}
+
+.button-right{
+    text-align: right;
+}
+
+.btn-new{
+    font-size: 14px;
+}
+
+.btn-new:hover{
+    background-color: #363636;
+}
+
+.btn-2:hover{
+    background-color: rgb(187, 50, 50);
+    transition: 0.5s;
+}
+
+.btn-3{
+    background-color: #635f5f;
+}
+
+.btn-3:hover{
+    background-color: skyblue;
+}
+
+.btn-4{
+    background-color: #635f5f;
+}
+
+.btn-4:hover{
+    background-color: #4265b9;
+}
+
+.btn-5{
+    background-color: #635f5f;
+}
+
+.btn-5:hover{
+    background-color: #df3333;
+}
+
+.btn-2,.btn-new{
+    border: none;
+}
+
+.font-post {
+    font-size: 14px;
+    color: #a39999;
+    transition: 0.3s;
+}
+
+.font-post:hover{
+  color:#da4453;
+}
+
+.font-post2 {
+    font-size: 14px;
+    color: #a39999;
+    transition: 0.3s;
+}
+
+.font-post2:hover{
+  color:#fff;
+}
+
+.widget-title {   
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: #636467;
+}
+
+.sp-1{
+    color: #c1c0c0;
+    font-size: 12px;
+}
+
+.date{
+    color: #999;
+    font-size: 12px;
+}
+
+.cats-widget a,span {
+    color: #c1c0c0;
+    transition: 0.5s;
+}
+
+.cat-items2 a,span {
+    color: #c1c0c0;
+}
+
+.bi{
+   color:#c1c0c0;
+   font-size: 13px;
+}
+
+.menu-item{
+    font-size: 18px;
+}
+
+.post-content-2 a{
+    font-size: 16px;
+    color: rgb(211, 200, 200);
+    line-height: 0.5em;
+    transition: 0.5s;
+}
+   
+.post-content-2 a:hover{
+    color: #fff;
+}
+
+.widget-categories{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #636467;
+}
+
+.tag-clouds button{
+    padding: 6px 7px;
+    margin-right: 0;
+    margin: 2px;
+    line-height: 100%;
+    display: inline-block;
+    color: #fff !important;
+    background-color: #dadada;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-size: 12px;
+}
+
+.tag-clouds button:hover{
+    background-color: #da4453;
+}
+
+.footer-area p,a{
+  color:#999;
+}
+
+.footer-area p,a:hover{
+  color:rgb(175, 170, 170);
+}
+
+.footer-nav li{
+    font-size: 12px;
+    cursor: pointer;
+}
+.copyright{
+    font-size: 12px;
+    text-align: center;
+    color:rgb(211, 200, 200) ;
+    transition: 0.5s;
+}
+.copyright a:hover{
+    color: #fff;
+
+ }
+
+.container-2 {
+    position: relative;
+}
+  
+  
+  
